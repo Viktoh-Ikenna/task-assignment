@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This **Task Management Application** was designed to provide an intuitive, user-friendly, and visually appealing experience for managing tasks, projects, and team collaborations. Our team has put in a tremendous effort to ensure the platform delivers a seamless experience for users, prioritizing functionality, responsiveness, and simplicity. Despite time constraints, we've managed to deliver a robust solution that achieves our goals effectively.
 
-In the project directory, you can run:
+The application is accessible here: [Task Management Application](https://my-team-planner.netlify.app/signin)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Credentials for Testing
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To make testing easier for our testers, we’ve included some default accounts with pre-set credentials. Feel free to use these accounts to log in and explore the features of the application:
 
-### `npm test`
+| **Email**               | **Password** |
+| ----------------------- | ------------ |
+| christopher42@yahoo.com | P9IlBo9q(R   |
+| xavier80@hotmail.com    | \_wiTp\*li1S |
+| millerjorge@yahoo.com   | C%nwA7Tn^t   |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Task Management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Dynamic Task Management:** Create, assign, and track tasks with priority levels, due dates, and progress tracking.
+- **Subtask Integration:** Tasks can have subtasks for better categorization and breakdown.
+- **Team Collaboration:** Assign team members to tasks, view assignees, and streamline collaboration.
+- **Drag-and-Drop Columns:** Manage project boards (Backlog, In Progress, Review, Done) effortlessly.
+- **Modern UI:** A sleek and professional design, using Material UI, with a focus on accessibility and clarity.
+- **Project-Based Workflow:** Seamlessly switch between different projects, each with its own tasks, columns, and teams.
+- **Mock Data for Testing:** A set of mock emails and passwords for testers to explore the application's functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Features in Detail
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Task Management
+- Add, edit, and delete tasks with detailed descriptions.
+- Assign tasks to team members and set priorities.
+- Attach files and manage subtasks.
+- Include due dates and tags for proper categorization.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Project Management
+- Manage multiple projects under a single company.
+- Columns for organizing tasks, including **Backlog**, **In Progress**, **Review**, and **Done**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Team Collaboration
+- Assign multiple team members to tasks with real-time updates.
+- Display assignees and their avatars for better task visibility.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Subtasks
+- Create and manage subtasks within a parent task.
+- Track subtasks' completion status.
 
-## Learn More
+### Drag-and-Drop Board
+- Rearrange tasks across columns using a drag-and-drop interface.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+
+- **React.js:** Frontend framework for building an interactive user interface.
+- **Material UI (MUI):** For styling and components.
+- **React Router DOM:** For seamless navigation between pages.
+- **Context API:** For state management across the app.
+- **UUID:** For generating unique identifiers.
+- **TypeScript:** For improved development experience and type safety.
+
+---
+
+## Development Constraints
+
+This project was developed under a tight deadline, with a major focus on delivering a functional frontend. Due to time constraints, the APIs for certain features are mock-based. However, the groundwork has been laid for seamless backend integration in the future.
+
+---
+
+## Acknowledgments
+
+A huge thanks to everyone who contributed to this project, whether in designing, coding, or testing. Despite time limitations, this team has shown immense dedication and passion, ensuring we deliver a reliable and scalable solution. The mock APIs used are placeholders, and future iterations will incorporate full backend support.
+
+We hope you enjoy exploring the app as much as we enjoyed building it! 😊
